@@ -4,7 +4,7 @@ The [Hávamál](https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l) is an Old Norse
 
 # Installation
 
-Use `pip install pyhavamal`.
+Use `pip install pyhavamal-equinlan`.
 
 # Use
 
