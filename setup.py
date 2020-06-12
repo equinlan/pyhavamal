@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyhavamal-equinlan", # Replace with your own username
-    version="0.0.1",
+    name="pyhavamal", # Replace with your own username
+    version="0.1.0",
     author="Evan Quinlan",
     author_email="evan.quinlan@gmail.com",
     description="A CSV file containing the Old Norse Hávamál stanzas and a simple Python app for accessing them.",

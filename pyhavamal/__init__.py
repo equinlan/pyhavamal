@@ -1,1 +1,1 @@
-from .stanzas import all, random
+from .stanzas import all, find_by_number, random, range_by_number
