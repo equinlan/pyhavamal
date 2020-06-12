@@ -1,7 +1,9 @@
 import pickle
 import random as r
+import os
 
-stanzas = pickle.load(open(r"pyhavamal\data\stanzas", "rb"))
+data_path = os.path.join('pyhavamal', 'data', 'stanzas')
+stanzas = pickle.load(open(data_path, "rb"))
 
 def all(numbered=False):
     """
