@@ -2,7 +2,7 @@ import pickle
 import random as r
 import os
 
-data_path = os.path.join('pyhavamal', 'data', 'stanzas')
+data_path = os.path.join(os.path.dirname(__file__), 'data', 'stanzas')
 stanzas = pickle.load(open(data_path, "rb"))
 
 def all(numbered=False):
