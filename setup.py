@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyhavamal", # Replace with your own username
-    version="0.1.3",
+    version="0.1.4",
     author="Evan Quinlan",
     author_email="evan.quinlan@gmail.com",
     description="A CSV file containing the Old Norse Hávamál stanzas and a simple Python app for accessing them.",
@@ -20,5 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7'
+    python_requires='>=3.7',
+    test_suite='nose.collector',
+    tests_require=['nose'],
 )
